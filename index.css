@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* ----------NavBar CSS ------ */
+.header {
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* -------main------- */
+main {
+    grid-area: main;
+}
+
+
+.sub-main {
+    padding: 30px;
+}
+
+.heading {
+    display: grid;
+    gap: 30px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.para {
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+/*--------- */
+.btn {
+    background: #2E8BC0;
+    border-radius: 10px;
+    border: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 300px;
+    cursor: pointer;
+    outline-offset: 4px;
+}
+
+.btn-text {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: #2E8BC0;
+    color: white;
+    transform: translateY(-6px);
+}
+
+.pushable:active .front {
+    transform: translateY(-2px);
+}
+
+.text-below {
+    margin-top: 15px;
+    color: gray;
+}
+
+.text-below span {
+    color: blue;
+}
+
+/* -------foooter---------- */
+.footer {
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 130px;
+    margin-left: 18px;
+
+}
+
+.footer-left {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    color: gray;
+
+}
+
+.left-img img {
+    width: 55%;
+}
+
+.address-line1 {
+    margin-bottom: 7px;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.footer-right {
+    text-align: end;
+
+}
+
+.right-img img {
+    width: 30px;
+}
+
+.youtube {
+    margin-right: 20px;
+}
+
+.sub-text {
+    text-align: end;
+}
+
+.line-1 {
+    margin-bottom: 7px;
+}
